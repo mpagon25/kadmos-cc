@@ -1,0 +1,22 @@
+{
+	"userProfile": {
+		"en": "User Profile",
+		"de": "Nutzerprofil"
+	},
+	"userName": {
+		"en": "Name",
+		"de": "Name"
+	},
+	"userMail": {
+		"en": "Email",
+		"de": "E-Mail"
+	},
+	"users": {
+		"en": "Users",
+		"de": "Nutzer"
+	},
+	"settings": {
+		"en": "Settings",
+		"de": "Einstellungen"
+	}
+}

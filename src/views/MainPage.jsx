@@ -1,12 +1,23 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { View, StyleSheet } from "react-native";
+import UserList from "../components/UserList";
 
-const MainPage = () => {
+const MainPage = (props) => {
+    const { userList } = props;
+
     return (
-        <View>
-            <Text>Hello</Text>
+        <View style={styles.container}>
+            <View>
+                <UserList {...props} userList={userList} />
+            </View>
         </View>
     );
 };
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+    },
+});
 
 export default MainPage;
